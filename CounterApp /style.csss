@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{ 
+
+    /*used gradiently for the background*/
+    background-Image:
+        repeating-linear-gradient(0deg, rgba(75, 85, 99, 0.08), rgba(75, 85, 99, 0.08) 2px, transparent 2px, transparent 6px),
+        repeating-linear-gradient(90deg, rgba(107, 114, 128, 0.06), rgba(107, 114, 128, 0.06) 2px, transparent 2px, transparent 6px),
+        repeating-linear-gradient(0deg, rgba(55, 65, 81, 0.04), rgba(55, 65, 81, 0.04) 1px, transparent 1px, transparent 12px),
+        repeating-linear-gradient(90deg, rgba(55, 65, 81, 0.04), rgba(55, 65, 81, 0.04) 1px, transparent 1px, transparent 12px) ; 
+
+    font-family: 'Times New Roman', Times, serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.counter-container{
+    background: white;
+    color: #333;
+    box-shadow: 8px 27px 176px 1px rgba(212, 69, 69, 0.44);
+    padding: 60px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.counter-display{
+    font-size: 4rem;
+    margin: 20px 0 ;
+}
+
+.controls{
+    padding: 12px;
+    margin: 10px;
+    font-size: 1rem;
+}
+#incrementBtn{
+    background-color: rgb(47, 41, 143);
+    margin: 10;
+    height: 30px;
+    width: 66px;
+    cursor: pointer;
+    color: wheat;
+    border-radius: 6px;
+}
+
+#decrementBtn{
+    background-color: rgb(66, 148, 196);
+     margin: 10px;
+     height: 30px;
+     width: 66px;
+     cursor: pointer;
+     color: wheat;
+     border-radius: 6px;
+}
+#resetBtn{
+    background-color: rgb(231, 40, 40);
+     margin: 10px;
+     height: 30px;
+     width: 66px;
+     cursor: pointer;
+     color: wheat;
+     border-radius: 6px;
+}
+
+#incrementBtn:hover{
+    border: 2px solid black;
+}
+#incrementBtn:active{
+    border: 2px solid black;
+}
+#decrementBtn:hover{
+    border: 2px solid black;
+}
+#decrementBtn:active{
+    border: 2px solid black;
+}
+#resetBtn:hover{
+    border: 2px solid black;
+}
+#resetBtn:active{
+    border: 2px solid black;
+}
+
+
+@media (max-width: 600px) {
+ .counter-container{
+     padding: 30px;
+     width: 70%;
+}
+.controls{
+    padding: 6px;
+    margin: 8px;
+    font-size: 40px;
+}
+
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+.counter-container{
+     padding: 40px;
+     width: 60%;
+}
+#incrementBtn , #decrementBtn , #resetBtn {
+    margin: 10px ;
+    height: 40px;
+    width: 76px;
+    border-radius: 10px;
+}
+
+}
