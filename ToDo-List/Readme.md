@@ -1,66 +1,68 @@
-📝 To-Do List App ~
-A simple and responsive To-Do List web application built using HTML, CSS, and JavaScript.
-It allows users to add tasks, mark them as completed, delete tasks, and persist data using Local Storage so tasks stay even after refreshing the page.
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ 
-🚀 Features ~
+# 📝 To-Do List App
 
-➕ Add new tasks
-✅ Mark tasks as completed
-❌ Delete tasks
-💾 Data saved in Local Storage
-🎨 Clean & responsive UI
-⚡ Pure JavaScript (no libraries)
+A simple and responsive **To-Do List web application** built using **HTML, CSS, and JavaScript**.  
+It allows users to add tasks, mark them as completed, delete tasks, and store data using **Local Storage**.
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-🛠️ Tech Stack ~
-• HTML – Structure
-• CSS – Styling & layout
-• JavaScript – Functionality & Local Storage
+## 🚀 Features
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Data saved in Local Storage
+- Clean & responsive UI
+- Pure JavaScript (no libraries)
 
-📂 Project Structure
+---
+
+## 🛠 Tech Stack
+
+- HTML – Structure
+- CSS – Styling & layout
+- JavaScript – Functionality & Local Storage
+
+---
+
+## 📂 Project Structure
+To-Do-List/
 ├── index.html
 ├── todolist.css
 ├── todolist.js
-└── To-Do-Img/
-    └── images/
-        ├── icon.png
-        ├── checked.png
-        └── unchecked.png
+├── To-Do-Img/
+│ └── images/
+│ ├── icon.png
+│ ├── checked.png
+│ └── unchecked.png
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-🧠 How It Works ~
-• Users enter a task and click Add
-• Tasks are dynamically added to the list
-• Clicking on a task toggles completed state
-• Clicking ❌ deletes the task
-• Tasks are stored in localStorage, so data persists after reload
+---
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+## ⚙️ How It Works
 
-🧠 What I Learned ~ 
-• DOM manipulation
-• Event handling
-• Working with localStorage
-• Building real-world JS logic
-• Writing cleaner, reusable code
+- User enters a task and clicks **Add**
+- Tasks are dynamically added to the list
+- Clicking a task toggles completed state
+- Clicking ❌ deletes the task
+- Tasks are stored in **localStorage**, so they persist after reload
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-📌 Future Improvements (Planned) ~ 
-🛠️ Future Upgrades
-✏️ Edit tasks
-🌙 Dark mode
-⏰ Due dates
-📱 Better mobile UI
-🧲 Drag & drop support
+## 📚 What I Learned
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- DOM manipulation
+- Event handling
+- Working with localStorage
+- Writing clean, reusable JavaScript code
 
-“Small projects. Big progress.” 💪
+---
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+## 🔮 Future Improvements
+
+- Edit tasks
+- Dark mode
+- Due dates
+- Better mobile UI
+- Drag & drop support
+
