@@ -1,49 +1,59 @@
-⏰ Digital Clock App
-A sleek Digital Clock built using HTML, CSS, and JavaScript that displays real-time hours, minutes, and seconds with a modern glassmorphism UI.
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+# ⏰ Digital Clock App
 
-🛠️ Tech Stack
-• HTML5 – Structure
-• CSS3 – Styling, gradients & glassmorphism
-• JavaScript (ES6) – Real-time clock logic
+A sleek **Digital Clock** built using **HTML, CSS, and JavaScript** that displays real-time hours, minutes, and seconds with a modern **glassmorphism UI**.
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-✨ Features
-• Real-time digital clock ⌚
-• Smooth gradient background
-• Glassmorphism clock UI
-• Auto updates every second
-• Responsive & centered layout
+## 🚀 Features
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Real-time digital clock
+- Auto updates every second
+- Smooth gradient background
+- Glassmorphism clock UI
+- Responsive & centered layout
+- Pure JavaScript (no libraries)
 
-📂 Project Structure
-digital-clock/
-│
+---
+
+## 🛠 Tech Stack
+
+- **HTML5** – Structure  
+- **CSS3** – Styling, gradients & glassmorphism  
+- **JavaScript (ES6)** – Real-time clock logic  
+
+---
+
+## 📂 Project Structure
+Digital-Clock/
 ├── index.html
 ├── style.css
 └── script.js
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
-⚙️ How It Works
-• JavaScript’s Date() object fetches the current time
-• setInterval() updates the clock every second
-• Time values are formatted to always show two digits
+---
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+## ⚙️ How It Works
 
-🧠 Learning Outcomes
-• DOM manipulation
-• JavaScript timing functions
-• CSS positioning & pseudo-elements
-• Glassmorphism UI design
+- JavaScript `Date()` object fetches the current time
+- `setInterval()` updates the clock every second
+- Time values are formatted to always show two digits
 
-_______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+---
 
-🔮 Future Improvements
-• 12-hour / 24-hour toggle
-• Date & day display
-• Dark / Light mode
-• Stopwatch & Timer integration
+## 📚 Learning Outcomes
+
+- DOM manipulation
+- JavaScript timing functions
+- CSS positioning & pseudo-elements
+- Glassmorphism UI design
+
+---
+
+## 🔮 Future Improvements
+
+- 12-hour / 24-hour format toggle
+- Date & day display
+- Dark / Light mode
+- Stopwatch & Timer integration
+
+---
