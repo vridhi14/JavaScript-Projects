@@ -12,10 +12,9 @@ It allows users to add tasks, mark them as completed, delete tasks, and persist 
 ⚡ Pure JavaScript (no libraries)
 
 🛠️ Tech Stack ~
-
-HTML – Structure
-CSS – Styling & layout
-JavaScript – Functionality & Local Storage
+• HTML – Structure
+• CSS – Styling & layout
+• JavaScript – Functionality & Local Storage
 
 📂 Project Structure
 ├── index.html
@@ -28,18 +27,18 @@ JavaScript – Functionality & Local Storage
         └── unchecked.png
 
 🧠 How It Works ~
-Users enter a task and click Add
-Tasks are dynamically added to the list
-Clicking on a task toggles completed state
-Clicking ❌ deletes the task
-Tasks are stored in localStorage, so data persists after reload
+• Users enter a task and click Add
+• Tasks are dynamically added to the list
+• Clicking on a task toggles completed state
+• Clicking ❌ deletes the task
+• Tasks are stored in localStorage, so data persists after reload
 
 🧠 What I Learned ~ 
-DOM manipulation
-Event handling
-Working with localStorage
-Building real-world JS logic
-Writing cleaner, reusable code
+• DOM manipulation
+• Event handling
+• Working with localStorage
+• Building real-world JS logic
+• Writing cleaner, reusable code
 
 📌 Future Improvements (Planned) ~ 
 🛠️ Future Upgrades
@@ -49,5 +48,4 @@ Writing cleaner, reusable code
 📱 Better mobile UI
 🧲 Drag & drop support
 
-Drop a ⭐ and let’s build more cool stuff.
 “Small projects. Big progress.” 💪
